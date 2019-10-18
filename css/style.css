@@ -1,0 +1,261 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.button {
+    padding: 10px 15px;
+    color: #fff;
+    transition: color 200ms ease-in;
+}
+
+.button:hover, .button:focus {
+    color: rgb(100, 100, 100);
+}
+
+.hero {
+    position: relative;
+    background: rgba(109, 107, 107, .75);
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.hero .hero-inner {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.button-outline {
+    background-color: #fff;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.big, .bigger, .biggest {
+    display: block;
+}
+
+.biggest {
+    margin: 0;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+.bigger {
+    margin: 0;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+.big {
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+.menu {
+    position: relative;
+    background: rgb(109, 107, 107);
+   /* background-image: url("../images/menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover */
+    
+}
+.menu::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.menu .menu-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.menu .menu-inner .menu-item {
+    border: 2px solid #bdbdbd;
+    height: 2rem;
+    padding: 10px;
+}
+
+.menu .menu-inner .menu-item a {
+    /* padding: 10px 15px; */
+}
+
+.about {
+    background: rgb(109, 107, 107);
+    font-size:2rem;
+    padding: 2rem 0;
+    
+}
+
+.about h2 {
+    display: block;
+}
+
+.about a {
+    display: block;
+}
+
+.about img {
+    height: 16.125em;
+}
+
+.left {
+    float: left;
+}
+.right {
+    padding: 1.75em;
+    margin: 0 2rem;
+}
+
+.education {
+    background: rgb(109, 107, 107);
+    font-size:2rem;
+    background-image: url("../images/education.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.edwrap{
+    color: #f9f9f9;
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.skills {
+    background: rgb(109, 107, 107);
+    font-size:2rem;
+    background-image: url("../images/Skills.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.skillwrap{
+    color: #f9f9f9;
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.contact {
+    background: rgb(109, 107, 107);
+    font-size:2rem;
+    background-image: url("../images/Contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.conwrap{
+
+    color: #f9f9f9;
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
