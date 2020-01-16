@@ -138,6 +138,10 @@ img {
     background: url("../images/Skills.png") no-repeat center center/cover;
     z-index: -1;
 }
+/*.icons{
+    width: 5px;
+    height: 5px;
+}*/
 
 .about-contents {
     padding: 1.5em 0;
@@ -247,7 +251,7 @@ Skills and Education
     background: url("../images/Skills.png") no-repeat center center/cover;
     z-index: -1;
 }
-.icons{
+.icon{
     width: 100px;
     height: 100px;
 }
